@@ -43,3 +43,19 @@ pip install -r requirements.txt
 | `-o, --output`  | File output             | auto-generated |
 | `-v, --verbose` | Tampilkan semua request | False          |
 
+
+
+
+---
+
+## 🚀 Cara Jalanin
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Jalankan scan
+python xsearch.py -u https://target.com -t 50
+
+# 3. Hasil otomatis tersimpan di folder results/
+
