@@ -5,6 +5,8 @@ Tools pencari panel admin login otomatis dengan validasi real-time. No fake resu
 
 ---
 
+
+
 ## ✨ Fitur
 
 | Fitur | Detail |
@@ -29,3 +31,15 @@ cd xsearch
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+---
+
+| Flag            | Description             | Default        |
+| --------------- | ----------------------- | -------------- |
+| `-u, --url`     | Target URL (wajib)      | -              |
+| `-t, --threads` | Jumlah thread           | 50             |
+| `--timeout`     | Timeout request (detik) | 8              |
+| `-o, --output`  | File output             | auto-generated |
+| `-v, --verbose` | Tampilkan semua request | False          |
+
